@@ -33,7 +33,7 @@ jobs:
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: https://github.com/Jinukrishnan/Water-HTML/tree/main/Water-HTML/
+          source: ./Water-HTML
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
